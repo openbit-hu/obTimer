@@ -5,4 +5,4 @@ obTimer.onTimerEvent(function () {
   led.plot(x++, 0)
 })
 
-obTimer.init()
+obTimer.start()
