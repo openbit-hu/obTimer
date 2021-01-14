@@ -17,6 +17,8 @@ namespace obTimer {
      * Attaches code to run when .
      * @param body TODO
      */
+    //% blockId="obTimer_onTimerEvent"
+    //% block="onTimerEvent"
     export function onTimerEvent(body: () => void): void {
         timerCallback=body
     }
