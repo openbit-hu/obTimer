@@ -2,7 +2,7 @@
 let x=0
 
 obTimer.onTimerEvent(function () {
-  led.plot(x++, 0)
+  led.plotBrightness(2, 2, x=~x&0xff)
 })
 
 obTimer.start()
